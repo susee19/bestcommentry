@@ -7,7 +7,7 @@ document.querySelectorAll("button")[5].addEventListener("click",f6);
 document.querySelectorAll("button")[6].addEventListener("click",f7);
 document.querySelectorAll("button")[7].addEventListener("click",f8);
 function f1(){
-var mus=new Audio("./commentry/Messi-WC1.mp3");
+var mus=new Audio("./Messi-WC1.mp3");
 mus.play();
 var ab=document.querySelectorAll("button")[0];
 ab.classList.add("pressed");
@@ -16,7 +16,7 @@ setTimeout(function(){
 },36000)
 }
 function f2(){
-var mus=new Audio("./commentry/Messi-WC2.mp3");
+var mus=new Audio("./Messi-WC2.mp3");
 mus.play();
 var ab1=document.querySelectorAll("button")[1];
 ab1.classList.add("pressed");
@@ -26,7 +26,7 @@ setTimeout(function(){
 }
 
 function f3(){
-var mus=new Audio("./commentry/WC-2022.mp3");
+var mus=new Audio("./WC-2022.mp3");
 mus.play();
 var ab=document.querySelectorAll("button")[2];
 ab.classList.add("pressed");
@@ -36,7 +36,7 @@ setTimeout(function(){
 }
 
 function f4(){
-var mus=new Audio("./commentry/mbappe-wc.mp3");
+var mus=new Audio("./mbappe-wc.mp3");
 mus.play();
 var ab=document.querySelectorAll("button")[3];
 ab.classList.add("pressed");
@@ -46,7 +46,7 @@ setTimeout(function(){
 }
 
 function f5(){
-var mus=new Audio("./commentry/magic-man.mp3");
+var mus=new Audio("./magic-man.mp3");
 mus.play();
 var ab=document.querySelectorAll("button")[4];
 ab.classList.add("pressed");
@@ -56,7 +56,7 @@ setTimeout(function(){
 }
 
 function f6(){
-var mus=new Audio("./commentry/wc-2014.mp3");
+var mus=new Audio("./wc-2014.mp3");
 mus.play();
 var ab=document.querySelectorAll("button")[5];
 ab.classList.add("pressed");
@@ -66,7 +66,7 @@ setTimeout(function(){
 }
 
 function f7(){
-var mus=new Audio("./commentry/Lamine-Yamal.mp3");
+var mus=new Audio("./Lamine-Yamal.mp3");
 mus.play();
 var ab=document.querySelectorAll("button")[6];
 ab.classList.add("pressed");
@@ -76,7 +76,7 @@ setTimeout(function(){
 }
 
 function f8(){
-var mus=new Audio("./commentry/Pendu-manutd.mp3");
+var mus=new Audio("./Pendu-manutd.mp3");
 mus.play();
 var ab=document.querySelectorAll("button")[7];
 ab.classList.add("pressed");
@@ -84,3 +84,4 @@ setTimeout(function(){
     ab.classList.remove("pressed");
 },44000)
 }
+
