@@ -6,6 +6,7 @@ document.querySelectorAll("button")[4].addEventListener("click",f5);
 document.querySelectorAll("button")[5].addEventListener("click",f6);
 document.querySelectorAll("button")[6].addEventListener("click",f7);
 document.querySelectorAll("button")[7].addEventListener("click",f8);
+document.querySelectorAll("button")[8].addEventListener("click",f9);
 function f1(){
 var mus=new Audio("./Messi-WC1.mp3");
 mus.play();
@@ -84,4 +85,12 @@ setTimeout(function(){
     ab.classList.remove("pressed");
 },44000)
 }
-
+function f9(){
+var mus=new Audio("./messi-clutch.mp3");
+mus.play();
+var ab=document.querySelectorAll("button")[8];
+ab.classList.add("pressed");
+setTimeout(function(){ 
+    ab.classList.remove("pressed");
+},52000)
+}
