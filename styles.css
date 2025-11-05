@@ -1,30 +1,37 @@
-html{
-    background-color: skyblue;
-}
+
 h1{
     text-align: center;
-    color: lightslategrey;
+    
     font-weight: bolder;
     font-size: 2.5rem;
     text-decoration: solid;
 }
-.container{
+.containerr{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: minmax(0, 370px) minmax(0, 370px) minmax(0, 370px);
     grid-template-rows: 1fr 1fr 1fr;
-    gap:10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    gap:3rem;
+    
+    
 }
 img{
-    height: 200px;
-    width:250px;
-    border-radius: 18px;
+    
+  width: 100%;
+  height: 200px;        /* or 13rem if you want */
+  object-fit: cover;    /* crops nicely */
+  border-radius: 10px;
+
 }
-.container div {
-  background-color: white;
-  border-radius: 12px;
-  padding: 15px;
+.containerr div {
+  
+  border-radius: 10%;
+  padding: 2rem;
   box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
   transition: transform 0.2s, box-shadow 0.2s;
+  background-color: rgb(70, 68, 68);
 
   
   display: flex;
@@ -33,15 +40,20 @@ img{
   justify-content: center; /* vertical center */
   text-align: center;
 }
-h2{
-    color:black;
+.cont h2{
+    color: rgb(236, 32, 32);
     font-family: Libre Baskerville;
+    font-size: large;
 }
-button{
+.button{
     display: inline-flex;
 }
 .pressed{
   opacity: 0.5;
   transform: scale(0.97);
 }
+svg{
+    height: 25px;
+}
+
 
